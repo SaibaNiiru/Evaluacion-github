@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: ComicNeus;
+    background: black;
+}
+
+@font-face {
+    font-family: ComicNeus;
+    src: url(assets\fonts\ComicNeus\ComicNeue-Regular.ttf);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto 150px;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    min-height: 100vh;
+    font-family: ComicNeus;
+}
+
+.encabezado{
+    grid-area: header;
+    background: #334256;
+    border-radius: 0 0 20px 20px;
+}
+
+.main{
+    grid-area: main;
+    margin: 15px 0 15px 0;
+}
+
+.cards{
+    grid-area: cards;
+    background: black;
+    margin: 15px 0 15px 0;
+}
+
+.footer{
+    grid-area: footer;
+    background: #334256;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding: 70px;
+}
+
+.navegacion{
+    text-align: center;
+    align-content: first baseline;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.navlist{
+    color: white;;
+    margin-right: 80px;
+}
+
+.hero{
+    text-align: center;
+    padding: 50px;
+    background: #dbebfe;
+}
+
+.h1hero{
+    font-size: 45px;
+    color: #3b539d;
+}
+
+.texthero{
+    font-size: 20px;
+    color: #3b62c4;
+}
+
+.botonhero{
+    padding: 10px;
+    background: #2361ec;
+    color: white;
+    border-radius: 20%;
+    padding: 15px;
+}
+
+.card1{
+    background: #dcfce7;
+    color: #3b8959;
+    border-radius: 0 20px 20px 0;
+    text-align: center;
+    width: auto;
+}
+.card2{
+    background: #dcfce7;
+    color: #3b8959;
+    border-radius: 20px;
+    text-align: center;
+}
+.card3{
+    background: #dcfce7;
+    color: #3b8959;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+}
+
+.information{
+    grid-area: info;
+    background: #f3e8ff;
+    color: #823bbb;
+    text-align: center;
+
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    pad: 120px;
+}
+
+.callaction{
+    grid-area: call;
+    background: #fff4c7;
+    color: #b37037;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 120px;
+}
+
+@media (max-width: 1920){
+    
+}
+
+@media (max-width: 720px){
+    .botonhero{
+    padding: 10px;
+    background: #2361ec;
+    color: white;
+    border-radius: 20%;
+    padding: 15px 150px 15px 150px;
+    }
+}
+
+.encabezado{
+    grid-area: header;
+    background: #334256;
+    border-radius: 0 0 20px 20px;
+    no more, HEEELP!!
+}
